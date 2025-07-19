@@ -19,11 +19,9 @@ Jako developer musisz zaimplementować:
 ### 3. API Endpoints
 Zaimplementuj w `src/Controller/PostController.php`:
 
-- `GET /api/posts` - Lista wszystkich wpisów (z paginacją)
+- `GET /api/posts` - Lista wszystkich wpisów
 - `GET /api/posts/{id}` - Pobranie konkretnego wpisu
 - `POST /api/posts` - Tworzenie nowego wpisu (tylko dla zalogowanych użytkowników)
-- `PUT /api/posts/{id}` - Edycja wpisu (tylko autor może edytować)
-- `DELETE /api/posts/{id}` - Usuwanie wpisu (tylko autor może usuwać)
 
 ### 4. Testy w Codeception
 - Uzupełnij testy w `tests/functional/PostCest.php`
