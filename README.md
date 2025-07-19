@@ -116,5 +116,4 @@ vendor/bin/codecept run acceptance
 ## Bonus
 
 Jako dodatkowe zadanie możesz:
-- Dodać paginację do listy wpisów
 - Dodać edycję i usuwanie tych wpisów
