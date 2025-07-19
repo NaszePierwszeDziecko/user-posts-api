@@ -91,8 +91,6 @@ symfony server:start
 - `GET /api/posts` - Lista wpisów
 - `GET /api/posts/{id}` - Szczegóły wpisu
 - `POST /api/posts` - Tworzenie wpisu
-- `PUT /api/posts/{id}` - Edycja wpisu
-- `DELETE /api/posts/{id}` - Usuwanie wpisu
 
 ## Testy
 
@@ -120,4 +118,3 @@ vendor/bin/codecept run acceptance
 Jako dodatkowe zadanie możesz:
 - Dodać paginację do listy wpisów
 - Dodać edycję i usuwanie tych wpisów
-- Dodać filtrowanie wpisów (po autorze, dacie, statusie)
