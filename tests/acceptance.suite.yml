@@ -1,0 +1,9 @@
+actor: AcceptanceTester
+modules:
+    enabled:
+        - PhpBrowser:
+            url: http://localhost:8000
+        - Asserts
+        - REST:
+            depends: PhpBrowser
+            part: Json 

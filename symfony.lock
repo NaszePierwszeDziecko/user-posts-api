@@ -1,0 +1,227 @@
+{
+    "doctrine/annotations": {
+        "version": "2.0.1"
+    },
+    "doctrine/cache": {
+        "version": "2.2.0"
+    },
+    "doctrine/collections": {
+        "version": "2.1.4"
+    },
+    "doctrine/common": {
+        "version": "3.4.3"
+    },
+    "doctrine/dbal": {
+        "version": "3.6.7"
+    },
+    "doctrine/doctrine-bundle": {
+        "version": "2.10.2"
+    },
+    "doctrine/doctrine-migrations-bundle": {
+        "version": "3.2.2"
+    },
+    "doctrine/doctrine-migrations": {
+        "version": "3.6.4"
+    },
+    "doctrine/event-manager": {
+        "version": "2.0.0"
+    },
+    "doctrine/inflector": {
+        "version": "2.0.8"
+    },
+    "doctrine/instantiator": {
+        "version": "2.0.0"
+    },
+    "doctrine/lexer": {
+        "version": "3.0.0"
+    },
+    "doctrine/orm": {
+        "version": "2.16.2"
+    },
+    "doctrine/persistence": {
+        "version": "3.2.0"
+    },
+    "doctrine/sql-formatter": {
+        "version": "1.1.4"
+    },
+    "lexik/jwt-authentication-bundle": {
+        "version": "2.19.1"
+    },
+    "namshi/jose": {
+        "version": "7.2.3"
+    },
+    "php": {
+        "version": "8.1.0"
+    },
+    "psr/cache": {
+        "version": "3.0.0"
+    },
+    "psr/container": {
+        "version": "2.0.2"
+    },
+    "psr/event-dispatcher": {
+        "version": "1.0.0"
+    },
+    "psr/log": {
+        "version": "3.0.0"
+    },
+    "symfony/asset": {
+        "version": "6.3.0"
+    },
+    "symfony/cache": {
+        "version": "6.3.0"
+    },
+    "symfony/config": {
+        "version": "6.3.0"
+    },
+    "symfony/console": {
+        "version": "6.3.0"
+    },
+    "symfony/dependency-injection": {
+        "version": "6.3.0"
+    },
+    "symfony/doctrine-messenger": {
+        "version": "6.3.0"
+    },
+    "symfony/dotenv": {
+        "version": "6.3.0"
+    },
+    "symfony/error-handler": {
+        "version": "6.3.0"
+    },
+    "symfony/event-dispatcher": {
+        "version": "6.3.0"
+    },
+    "symfony/expression-language": {
+        "version": "6.3.0"
+    },
+    "symfony/filesystem": {
+        "version": "6.3.0"
+    },
+    "symfony/finder": {
+        "version": "6.3.0"
+    },
+    "symfony/flex": {
+        "version": "2.4.1"
+    },
+    "symfony/form": {
+        "version": "6.3.0"
+    },
+    "symfony/framework-bundle": {
+        "version": "6.3.0"
+    },
+    "symfony/http-client": {
+        "version": "6.3.0"
+    },
+    "symfony/http-foundation": {
+        "version": "6.3.0"
+    },
+    "symfony/http-kernel": {
+        "version": "6.3.0"
+    },
+    "symfony/intl": {
+        "version": "6.3.0"
+    },
+    "symfony/mailer": {
+        "version": "6.3.0"
+    },
+    "symfony/maker-bundle": {
+        "version": "1.49.0"
+    },
+    "symfony/mime": {
+        "version": "6.3.0"
+    },
+    "symfony/monolog-bundle": {
+        "version": "3.0.0"
+    },
+    "symfony/notifier": {
+        "version": "6.3.0"
+    },
+    "symfony/orm-pack": {
+        "version": "2.2.0"
+    },
+    "symfony/phpunit-bridge": {
+        "version": "6.3.0"
+    },
+    "symfony/process": {
+        "version": "6.3.0"
+    },
+    "symfony/property-access": {
+        "version": "6.3.0"
+    },
+    "symfony/property-info": {
+        "version": "6.3.0"
+    },
+    "symfony/routing": {
+        "version": "6.3.0"
+    },
+    "symfony/runtime": {
+        "version": "6.3.0"
+    },
+    "symfony/security-bundle": {
+        "version": "6.3.0"
+    },
+    "symfony/security-core": {
+        "version": "6.3.0"
+    },
+    "symfony/security-csrf": {
+        "version": "6.3.0"
+    },
+    "symfony/security-guard": {
+        "version": "6.3.0"
+    },
+    "symfony/security-http": {
+        "version": "6.3.0"
+    },
+    "symfony/serializer": {
+        "version": "6.3.0"
+    },
+    "symfony/serializer-pack": {
+        "version": "1.0.0"
+    },
+    "symfony/service-contracts": {
+        "version": "3.3.0"
+    },
+    "symfony/stopwatch": {
+        "version": "6.3.0"
+    },
+    "symfony/string": {
+        "version": "6.3.0"
+    },
+    "symfony/test-pack": {
+        "version": "1.0.0"
+    },
+    "symfony/translation": {
+        "version": "6.3.0"
+    },
+    "symfony/twig-bundle": {
+        "version": "6.3.0"
+    },
+    "symfony/twig-pack": {
+        "version": "1.0.0"
+    },
+    "symfony/validator": {
+        "version": "6.3.0"
+    },
+    "symfony/var-dumper": {
+        "version": "6.3.0"
+    },
+    "symfony/var-exporter": {
+        "version": "6.3.0"
+    },
+    "symfony/web-link": {
+        "version": "6.3.0"
+    },
+    "symfony/web-profiler-bundle": {
+        "version": "6.3.0"
+    },
+    "symfony/yaml": {
+        "version": "6.3.0"
+    },
+    "twig/extra-bundle": {
+        "version": "2.12.0"
+    },
+    "twig/twig": {
+        "version": "3.5.0"
+    }
+} 

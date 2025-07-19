@@ -1,0 +1,77 @@
+{
+  "name": "user-posts-api/interview-task",
+  "description": "Symfony API for user posts management - interview task",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Interview Task"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "symfony/framework-bundle": "^6.3",
+    "symfony/runtime": "^6.3",
+    "symfony/yaml": "^6.3",
+    "symfony/orm-pack": "^2.2",
+    "symfony/validator": "^6.3",
+    "symfony/serializer": "^6.3",
+    "doctrine/doctrine-bundle": "^2.10",
+    "doctrine/doctrine-migrations-bundle": "^3.2",
+    "doctrine/orm": "^2.16",
+    "doctrine/dbal": "^3.6",
+    "doctrine/doctrine-migrations": "^3.6",
+    "symfony/maker-bundle": "^1.49",
+    "symfony/security-bundle": "^6.3",
+    "lexik/jwt-authentication-bundle": "^2.19",
+    "namshi/jose": "^7.2"
+  },
+  "require-dev": {
+    "symfony/maker-bundle": "^1.49",
+    "symfony/stopwatch": "^6.3",
+    "symfony/web-profiler-bundle": "^6.3",
+    "codeception/codeception": "^5.0",
+    "codeception/module-symfony": "^2.0",
+    "codeception/module-doctrine2": "^2.0",
+    "codeception/module-rest": "^2.0",
+    "codeception/module-asserts": "^3.0",
+    "codeception/module-phpbrowser": "^2.0",
+    "symfony/test-pack": "^1.0",
+    "phpunit/phpunit": "^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "auto-scripts": {
+      "cache:clear": "symfony-cmd",
+      "assets:install %PUBLIC_DIR%": "symfony-cmd"
+    },
+    "post-install-cmd": [
+      "@auto-scripts"
+    ],
+    "post-update-cmd": [
+      "@auto-scripts"
+    ]
+  },
+  "config": {
+    "allow-plugins": {
+      "php-http/discovery": true,
+      "symfony/flex": true,
+      "symfony/runtime": true
+    }
+  },
+  "extra": {
+    "symfony": {
+      "allow-contrib": false,
+      "require": "6.3.*"
+    }
+  }
+}

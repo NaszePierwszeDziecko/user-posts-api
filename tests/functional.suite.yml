@@ -1,0 +1,10 @@
+actor: FunctionalTester
+modules:
+    enabled:
+        - Symfony
+        - Doctrine2:
+            depends: Symfony
+        - Asserts
+        - REST:
+            depends: Symfony
+            part: Json 
