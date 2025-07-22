@@ -35,7 +35,7 @@ class UserCest
         $I->sendPOST('/api/users', $userData);
         $I->seeResponseCodeIs(400);
         $I->seeResponseIsJson();
-        $I->seeResponseContainsJson(['errors']);
+        $I->seeResponseMatchesJsonType(['errors' => 'array']);
     }
 
     public function testRegisterUserWithExistingEmail(FunctionalTester $I)

@@ -29,10 +29,16 @@ class UserController extends AbstractController
     #[Route('', name: 'register', methods: ['POST'])]
     public function register(Request $request): JsonResponse
     {
-        $data = json_decode($request->getContent(), true);
+        $content = $request->getContent();
+        $data = json_decode($content, true);
+        
+        // If JSON parsing failed, try to get data from request parameters (form data)
+        if (!$data) {
+            $data = $request->request->all();
+        }
         
         if (!$data) {
-            return $this->json(['error' => 'Invalid JSON'], Response::HTTP_BAD_REQUEST);
+            return $this->json(['error' => 'Invalid JSON', 'content' => $content], Response::HTTP_BAD_REQUEST);
         }
 
         $user = new User();

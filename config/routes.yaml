@@ -3,10 +3,10 @@ api_login_check:
 
 api_posts:
     resource: '../src/Controller/PostController.php'
-    type: annotation
+    type: attribute
     prefix: /api
 
 api_users:
     resource: '../src/Controller/UserController.php'
-    type: annotation
+    type: attribute
     prefix: /api 

@@ -21,6 +21,5 @@ modules:
             app_path: 'src'
             environment: 'test'
         REST:
-            depends: PhpBrowser
-            url: 'http://localhost:8000'
+            depends: Symfony
             part: Json 
